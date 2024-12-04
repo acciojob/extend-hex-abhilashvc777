@@ -1,5 +1,6 @@
 const extendHex = (shortHex) => {
   // write your code here
+	if(shorthex[0]=="#"){
 	let str = shortHex[0]+""
 	for(let i=1; i<=shortHex.length-1; i++){
 		for(let j=1; j<=2; j++){
@@ -7,6 +8,16 @@ const extendHex = (shortHex) => {
 		}
 	}
 	console.log(str)
+	} else{
+		let str = ""
+	for(let i=0; i<=shortHex.length-1; i++){
+		for(let j=1; j<=2; j++){
+			str=str+shortHex[i];
+		}
+	}
+	console.log(str)
+	}
+
 };
 
 // Do not change the code below.
