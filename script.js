@@ -7,7 +7,7 @@ const extendHex = (shortHex) => {
 			str=str+shortHex[i];
 		}
 	}
-	console.log(str)
+	return str
 	} else{
 		let str = ""
 	for(let i=0; i<=shortHex.length-1; i++){
@@ -15,9 +15,8 @@ const extendHex = (shortHex) => {
 			str=str+shortHex[i];
 		}
 	}
-	console.log(str)
+	return str
 	}
-
 };
 
 // Do not change the code below.
