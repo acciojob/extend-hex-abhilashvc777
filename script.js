@@ -7,18 +7,18 @@ const extendHex = (shortHex) => {
 			str=str+shortHex[i];
 		}
 	}
-	return str
+	console.log(str)
 	} else{
-		let str = ""
+		let str = "#"
 	for(let i=0; i<=shortHex.length-1; i++){
 		for(let j=1; j<=2; j++){
 			str=str+shortHex[i];
 		}
 	}
-	return str
+	console.log(str)
 	}
 };
 
 // Do not change the code below.
-const shortHex = prompt("Enter Short Hex.");
-alert(extendHex(shortHex));
+// const shortHex = prompt("Enter Short Hex.");
+// alert(extendHex(shortHex));
