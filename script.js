@@ -1,5 +1,12 @@
 const extendHex = (shortHex) => {
   // write your code here
+	let str = shortHex[0]+""
+	for(let i=1; i<=shortHex.length-1; i++){
+		for(let j=1; j<=2; j++){
+			str=str+shortHex[i];
+		}
+	}
+	console.log(str)
 };
 
 // Do not change the code below.
